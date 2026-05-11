@@ -26,7 +26,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.Send
+import androidx.compose.material.icons.filled.Send
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.SmartToy
@@ -416,7 +416,7 @@ private fun ChatInputBar(
                 if (inputText.isNotBlank() && !isLoading) {
                     IconButton(onClick = onSend) {
                         Icon(
-                            Icons.AutoMirrored.Filled.Send,
+                            Icons.Filled.Send,
                             contentDescription = "Send",
                             tint = MaterialTheme.colorScheme.primary
                         )
