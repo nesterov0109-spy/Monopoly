@@ -416,7 +416,7 @@ private fun ChatInputBar(
                 if (inputText.isNotBlank() && !isLoading) {
                     IconButton(onClick = onSend) {
                         Icon(
-                            Icons.Filled.Send,
+                            Icons.Default.Send,
                             contentDescription = "Send",
                             tint = MaterialTheme.colorScheme.primary
                         )
