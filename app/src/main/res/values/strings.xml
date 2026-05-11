@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hermes AI</string>
+    <string name="chat_title">Chat</string>
+    <string name="history_title">History</string>
+    <string name="settings_title">Settings</string>
+    <string name="send">Send</string>
+    <string name="type_message">Type a message...</string>
+    <string name="new_chat">New Chat</string>
+    <string name="clear_chat">Clear Conversations</string>
+    <string name="about">About</string>
+    <string name="powered_by">Powered by DeepSeek</string>
+    <string name="retry">Retry</string>
+    <string name="error_title">Error</string>
+</resources>
