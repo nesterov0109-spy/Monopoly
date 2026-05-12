@@ -146,7 +146,7 @@ fun SideDrawerContent(
                     onClick = { onCloseDrawer() }
                 )
                 DrawerMenuItem(
-                    icon = Icons.Filled.Info,
+                    icon = Icons.Filled.Star,
                     title = "About",
                     onClick = { onCloseDrawer() }
                 )
