@@ -22,7 +22,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Divider
@@ -124,7 +123,7 @@ fun SideDrawerContent(
                     }
                 )
                 DrawerMenuItem(
-                    icon = Icons.Filled.DateRange,
+                    icon = Icons.Filled.Star,
                     title = "History",
                     onClick = { onCloseDrawer() }
                 )

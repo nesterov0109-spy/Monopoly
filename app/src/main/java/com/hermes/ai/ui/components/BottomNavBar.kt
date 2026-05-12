@@ -26,8 +26,8 @@ data class BottomNavItem(
 )
 
 val bottomNavItems = listOf(
-    BottomNavItem("Chat", Icons.Filled.Forum, "chat"),
-    BottomNavItem("History", Icons.Filled.DateRange, "history"),
+    BottomNavItem("Chat", Icons.Filled.Search, "chat"),
+    BottomNavItem("History", Icons.Filled.Star, "history"),
     BottomNavItem("Settings", Icons.Filled.Settings, "settings")
 )
 

@@ -229,7 +229,7 @@ private fun ChatBubble(message: ChatMessage) {
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
-                    Icons.Filled.Android,
+                    Icons.Filled.Person,
                     contentDescription = "AI",
                     tint = MaterialTheme.colorScheme.onPrimary,
                     modifier = Modifier.size(18.dp)
@@ -290,7 +290,7 @@ private fun LoadingBubble() {
             contentAlignment = Alignment.Center
         ) {
             Icon(
-                Icons.Filled.Android,
+                Icons.Filled.Person,
                 contentDescription = "AI",
                 tint = MaterialTheme.colorScheme.onPrimary,
                 modifier = Modifier.size(18.dp)
@@ -366,7 +366,7 @@ private fun EmptyChatState() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Icon(
-                Icons.Filled.Android,
+                Icons.Filled.Person,
                 contentDescription = null,
                 modifier = Modifier.size(64.dp),
                 tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.4f)
